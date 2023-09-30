@@ -103,6 +103,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "encrypt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8889/s2rates/perf/main",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"s2rates",
+						"perf",
+						"main"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
